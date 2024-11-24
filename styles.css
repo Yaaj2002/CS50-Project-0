@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    background-color: #fff;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #1a73e8;
+  }
+  
+  /* Header Styles */
+  .header {
+    font-size: 14px;
+    padding: 15px;
+    color: #5f6368;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .header a {
+    margin: 0 5px;
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  #verticalLn{
+    background-color: #202124;
+    border-left: #202124 2.5px solid;
+  }
+  
+  /* Google Logo */
+  .google-logo img {
+    margin-top: 195px;
+    width: 425px;
+  }
+  
+  /* Search Container */
+  .search-container {
+    margin-top: 30px;
+  }
+  
+  .search-bar {
+    width: 40%;
+    padding: 12px 20px;
+    border-radius: 24px;
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .search-buttons {
+    margin-top: 20px;
+  }
+  
+  .search-btn, .lucky-btn {
+    padding: 10px 30px;
+    font-size: 14px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-btn {
+    background-color: #4285f4;
+    color: white;
+  }
+  
+  .lucky-btn {
+    background-color: #f8f9fa;
+    color: #202124;
+    border: 1px solid #dcdcdc;
+  }
+  
+  .search-btn:hover {
+    background-color: #357ae8;
+  }
+  
+  .lucky-btn:hover {
+    background-color: #f1f3f4;
+  }
+  
+  /* Footer */
+  .footer {
+    font-size: 12px;
+    margin-top: 50px;
+  }
+  
+  .footer a {
+    color: #1a73e8;
+  }
+  
+  /* Advanced Search */
+  .advanced-option {
+    margin: 15px 0;
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .advanced-option label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .advanced-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+  }
+  
+  .advanced-btn {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .advanced-btn:hover {
+    background-color: #357ae8;
+  }
+  
